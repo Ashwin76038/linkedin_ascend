@@ -1,73 +1,100 @@
-# Welcome to your Lovable project
+🚀 LinkedIn Growth AI
 
-## Project info
+LinkedIn Growth AI is a full-stack AI-powered web application that helps professionals improve their LinkedIn presence through profile optimization, human-like post generation, and content analysis.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+It focuses on natural writing, recruiter appeal, and practical AI usage, avoiding robotic or generic AI outputs.
 
-## How can I edit this code?
+🎯 What Problem It Solves
 
-There are several ways of editing your application.
+Many LinkedIn posts sound AI-generated or generic
 
-**Use Lovable**
+Profiles lack keyword optimization and recruiter focus
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Users struggle to consistently create engaging content
 
-Changes made via Lovable will be committed automatically to this repo.
+LinkedIn Growth AI solves this by acting as a personal AI career assistant.
 
-**Use your preferred IDE**
+✨ Key Features
+🔐 LinkedIn Authentication
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Login using LinkedIn OAuth 2.0
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Securely fetch and store basic profile data
 
-Follow these steps:
+🧠 AI Profile Optimizer
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Optimized headline and About section
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Skill and keyword recommendations
 
-# Step 3: Install the necessary dependencies.
-npm i
+Recruiter-focused profile summary
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+✍️ AI Post Generator
 
-**Edit a file directly in GitHub**
+Generates human-like LinkedIn posts
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3 variations per request
 
-**Use GitHub Codespaces**
+Hooks, hashtags (5–8), CTAs, best posting time
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Supports professional, storytelling, and motivational tones
 
-## What technologies are used for this project?
+🔍 Post Analyzer (PostAutopsy)
 
-This project is built with:
+Improves existing LinkedIn posts
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Engagement score (1–10)
 
-## How can I deploy this project?
+Hook, formatting, and readability suggestions
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+🗂️ Post History
 
-## Can I connect a custom domain to my Lovable project?
+Save, review, and reuse generated or analyzed posts
 
-Yes, you can!
+🛡️ Safety & Compliance
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+No automatic posting to LinkedIn
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+User manually copies and posts content
+
+OAuth scopes respected
+
+Secure token handling
+
+🧰 Tech Stack
+
+Frontend
+
+React + TypeScript
+
+Vite
+
+Tailwind CSS
+
+shadcn/ui
+
+Backend
+
+FastAPI
+
+Modular service architecture
+
+Database
+
+Supabase (PostgreSQL)
+
+AI Layer
+
+Multi-provider LLM architecture
+
+Supports Ollama, Groq, OpenAI, Gemini, Claude
+
+🧠 Engineering Highlights
+
+Multi-LLM Adapter Pattern (vendor-agnostic AI layer)
+
+Prompt template manager for consistent outputs
+
+Clean separation of frontend, backend, and AI services
+
+Scalable SaaS-style architecture
