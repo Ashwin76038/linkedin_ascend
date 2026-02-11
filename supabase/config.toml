@@ -1,0 +1,10 @@
+project_id = "nognkufmvltkalvfkdfy"
+
+[functions.ai-profile-optimizer]
+verify_jwt = false
+
+[functions.ai-post-generator]
+verify_jwt = false
+
+[functions.ai-post-analyzer]
+verify_jwt = false
